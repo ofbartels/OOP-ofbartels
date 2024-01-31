@@ -22,9 +22,9 @@
 | Description | Docker Setup and Github Exercise |
 | Due Date | 01-Feb-2024 |
 | Status | Done |
-| Location | https://github.com/ofbartels/OOP-ofbartels/tree/main/ |
+| Location | https://github.com/ofbartels/OOP-ofbartels/tree/assignment-0 |
 | Self Grade | 100/100 |
-| Notes | Completed all the requirements and tested program; screenshots found in the same location |
+| Notes | Completed all the requirements of kattis solution, unit tests, and full program tests; screenshots found in https://github.com/ofbartels/OOP-ofbartels/tree/assignment-0/Assignments/A0/Screenshots |
 
 ## Labs
 
