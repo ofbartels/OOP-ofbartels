@@ -2,7 +2,8 @@ import unittest
 from sorttwonumbers import sortNumbers
 
 class TestSortNumbers(unittest.TestCase):
-    
+
+
     def test_ascending_order(self):
         result = sortNumbers(6, 7)
         print("Test Ascending Order: Input (6, 7), Output", result)
@@ -19,4 +20,5 @@ class TestSortNumbers(unittest.TestCase):
         self.assertEqual(result, (7, 7))
 
 if __name__ == '__main__':
+
     unittest.main()
