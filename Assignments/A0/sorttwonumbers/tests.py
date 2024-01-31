@@ -1,16 +1,18 @@
 import subprocess
 import os
 
+
 def run_test(input_file, expected_output_file):
-    
+
     with open(input_file, 'r') as infile, open(expected_output_file,
                                                'r')as outfile:
         expected_output = outfile.read().strip()
         input_data = infile.read()
-        process = subprocess.run(['python', 'sorttwonumbers.py'], 
-                                 input=input_data, capture_output=True, text=True)
+        process = subprocess.run(['python', 'sorttwonumbers.py'],
+                                 input=input_data,
+                                 capture_output=True, text=True)
         actual_output = process.stdout.strip()
-        print(f"Expected: {expected_output}, Actual: {actual_output}")  # Add this line
+        print(f"Expected: {expected_output}, Actual: {actual_output}")
         return actual_output == expected_output
 
 
