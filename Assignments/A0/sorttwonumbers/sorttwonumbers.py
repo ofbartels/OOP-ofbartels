@@ -1,5 +1,6 @@
 from typing import Tuple
 
+
 def sortNumbers(num1: int, num2: int) -> Tuple[int, int]:
     """
     Sorts two numbers in ascending order.
@@ -15,6 +16,7 @@ def sortNumbers(num1: int, num2: int) -> Tuple[int, int]:
         return num1, num2
     else:
         return num2, num1
+
 
 # Main execution block
 if __name__ == "__main__":
