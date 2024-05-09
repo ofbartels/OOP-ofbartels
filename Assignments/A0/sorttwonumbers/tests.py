@@ -1,11 +1,9 @@
 import subprocess
 import os
-from typing import Tuple
+
 
 def run_test(input_file: str, expected_output_file: str) -> bool:
     """
-    Runs a test by executing a script and comparing its output to the expected output.
-
     Args:
     input_file (str): The path to the file containing input data for the test.
     expected_output_file (str): The path to the file containing the expected output data.
@@ -22,6 +20,7 @@ def run_test(input_file: str, expected_output_file: str) -> bool:
         actual_output = process.stdout.strip()
         print(f"Expected: {expected_output}, Actual: {actual_output}")
         return actual_output == expected_output
+
 
 def main() -> None:
     # Directory where the test files are stored
@@ -44,6 +43,7 @@ def main() -> None:
             print(f"Test {test_count} Failed")
 
         test_count += 1
+
 
 if __name__ == "__main__":
     main()
