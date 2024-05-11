@@ -1,0 +1,11 @@
+@startuml classes_ConvexPolygonArea
+set namespaceSeparator none
+class "Point" as point.Point {
+  x
+  y
+}
+class "Polygon" as polygon.Polygon {
+  points
+  calculate_area() -> float
+}
+@enduml

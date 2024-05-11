@@ -25,7 +25,7 @@ def parse_input() -> List[Polygon]:
     return polygons
 
 
-def main():
+def main() -> None:
     """
     Main function to read, process, and output the area of each convex polygon.
     """
@@ -36,6 +36,7 @@ def main():
             print(f"{int(area)}")
         else:
             print(f"{area:.1f}")
+    pass
 
 
 if __name__ == '__main__':

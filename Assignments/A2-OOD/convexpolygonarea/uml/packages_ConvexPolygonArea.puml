@@ -1,0 +1,12 @@
+@startuml packages_ConvexPolygonArea
+set namespaceSeparator none
+package "convexpolygonarea" as convexpolygonarea {
+}
+package "point" as point {
+}
+package "polygon" as polygon {
+}
+convexpolygonarea --> point
+convexpolygonarea --> polygon
+polygon --> point
+@enduml
