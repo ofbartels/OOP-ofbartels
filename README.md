@@ -18,6 +18,18 @@
 
 | Name | Value |
 | :--- | :--- |
+| Name | OOP-A3-Unittesting |
+| Description | Unittesting |
+| Due Date | March 7th, 2024 |
+| Status | Done |
+| Location | https://github.com/ofbartels/OOP-ofbartels/tree/assignment-3/Assignments/A3-unittesting |
+| Self Grade | 100/100 |
+| Notes | Kattis solution meeting technical project requirements and ci-cd requirements. Screenshots found in same location.
+
+### Assignment #2
+
+| Name | Value |
+| :--- | :--- |
 | Name | OOP-A2-Object-Oriented-Design |
 | Description | OOD Principles |
 | Due Date | February 27th, 2024 |
