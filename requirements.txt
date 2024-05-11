@@ -8,3 +8,7 @@ autopep8
 lxml
 requests
 kattis-cli
+pylint
+plantuml
+sphinx
+java
