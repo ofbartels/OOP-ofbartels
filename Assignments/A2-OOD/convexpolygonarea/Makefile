@@ -9,7 +9,7 @@ TEST_SCRIPT1 = test_polygons.py
 
 TEST = python -m pytest 
 TEST_ARGS = -s --verbose --color=yes
-TYPE_CHECK = mypy --strict --allow-untyped-decorators --ignore-missing-imports
+TYPE_CHECK = mypy --strict --allow-untyped-decorators --ignore-missing-imports --exclude /docs/
 STYLE_CHECK = flake8
 STYLE_FIX = autopep8 --in-place --recursive --aggressive --aggressive
 

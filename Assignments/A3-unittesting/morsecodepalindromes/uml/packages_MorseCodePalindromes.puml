@@ -1,0 +1,12 @@
+@startuml packages_MorseCodePalindromes
+set namespaceSeparator none
+package "morse_converter" as morse_converter {
+}
+package "morsecodepalindromes" as morsecodepalindromes {
+}
+package "palindrome_checker" as palindrome_checker {
+}
+morsecodepalindromes --> morse_converter
+morsecodepalindromes --> palindrome_checker
+palindrome_checker --> morse_converter
+@enduml
