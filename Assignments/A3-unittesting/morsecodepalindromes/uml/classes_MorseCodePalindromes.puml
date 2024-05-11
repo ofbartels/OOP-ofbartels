@@ -1,0 +1,13 @@
+@startuml classes_MorseCodePalindromes
+set namespaceSeparator none
+class "MorseConverter" as morse_converter.MorseConverter {
+  morse_dict
+  morse_to_text(morse: str) -> str
+  text_to_morse(text: str) -> str
+}
+class "PalindromeChecker" as palindrome_checker.PalindromeChecker {
+  morse_converter
+  is_morse_palindrome(text: str) -> bool
+}
+morse_converter.MorseConverter --o palindrome_checker.PalindromeChecker : _morse_converter
+@enduml
