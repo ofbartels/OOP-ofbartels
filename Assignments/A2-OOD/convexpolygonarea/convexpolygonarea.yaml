@@ -1,0 +1,7 @@
+accepted: 3
+cpu_limit: 1 second
+difficulty: 2.0 Easy
+mem_limit: 1024 MB
+problemid: convexpolygonarea
+submissions: 4
+title: Convex Polygon Area

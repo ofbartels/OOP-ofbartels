@@ -14,6 +14,18 @@
 
 ## Assignments
 
+### Assignment #2
+
+| Name | Value |
+| :--- | :--- |
+| Name | OOP-A2-Object-Oriented-Design |
+| Description | OOD Principles |
+| Due Date | February 27th, 2024 |
+| Status | Done |
+| Location | https://github.com/ofbartels/OOP-ofbartels/tree/assignment-2/Assignments/A2-OOD |
+| Self Grade | 100/100 |
+| Notes | Kattis solution meeting technical project requirements, and ci-cd requirements. Screenshots found in same location.
+
 ### Assignment #1
 
 | Name | Value |
@@ -38,30 +50,17 @@
 | Self Grade | 100/100 |
 | Notes | Completed all the requirements of kattis solution, unit tests, and full program tests; screenshots found in https://github.com/ofbartels/OOP-ofbartels/tree/assignment-0/Assignments/A0/Screenshots |
 
-## Labs
-
-### Lab #1
-
-| Name | Value |
-| :--- | :--- |
-| Name |  |
-| Description |  |
-| Due Date |  |
-| Status |  |
-| Location |  |
-| Self Grade |  |
-| Notes |  |
 
 ### Final Project Presentation
 
 | Name | Value |
 | :--- | :--- |
-| Name |  |
+| Name | Owen Bartels, Lauren Lewis, Kevin Hedman, Mauricio Posadas |
 | Description |  |
-| Due Date |  |
-| Status |  |
-| Location |  |
-| Self Grade |  |
+| Due Date | May 13th, 2024 |
+| Status | Done |
+| Location | https://github.com/ofbartels/OOP-IdleDefense |
+| Self Grade | 100/100 |
 | Notes |  |
 
 

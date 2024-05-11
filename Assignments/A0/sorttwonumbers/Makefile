@@ -5,8 +5,8 @@ PYTHON = python
 SUBMIT_SCRIPT = submit
 KATTIS = kattis
 SOLUTION = sorttwonumbers.py
-TEST_SCRIPT1 = tests.py
-TEST_SCRIPT2 = unittests.py
+TEST_SCRIPT1 = test_main.py
+TEST_SCRIPT2 = test_unittests.py
 
 # Default target
 all: test

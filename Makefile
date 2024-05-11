@@ -32,3 +32,12 @@ clean:
 	rm -rf .hypothesis
 	rm -rf .coverage
 	
+.PHONY: test-all
+test-all:
+	make -C Assignments/A0/sorttwonumbers test
+	make -C Assignments/A2/convexpolygonarea test
+
+.PHONY: clean-all
+test-all:
+	make -C Assignments/A0/sorttwonumbers clean
+	make -C Assignments/A2-OOD/convexpolygonarea clean
