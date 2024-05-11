@@ -14,7 +14,7 @@
 
 ## Assignments
 
-### Assignment #2
+### Assignment #3
 
 | Name | Value |
 | :--- | :--- |
