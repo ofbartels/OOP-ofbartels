@@ -1,0 +1,12 @@
+@startuml packages_TitleCost
+set namespaceSeparator none
+package "title_cost_calculator" as title_cost_calculator {
+}
+package "title_input_handler" as title_input_handler {
+}
+package "titlecost" as titlecost {
+}
+title_input_handler --> title_cost_calculator
+titlecost --> title_cost_calculator
+titlecost --> title_input_handler
+@enduml

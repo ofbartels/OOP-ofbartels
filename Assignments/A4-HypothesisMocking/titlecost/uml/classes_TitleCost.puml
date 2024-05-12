@@ -1,0 +1,15 @@
+@startuml classes_TitleCost
+set namespaceSeparator none
+class "TitleCostCalculator" as title_cost_calculator.TitleCostCalculator {
+  cap
+  title
+  calculate_cost() -> float
+}
+class "TitleInputHandler" as title_input_handler.TitleInputHandler {
+  calculator
+  format_output(cost: float) -> str
+  parse_input(input_data: str) -> None
+  process_input(input_data: str) -> None
+}
+title_cost_calculator.TitleCostCalculator --o title_input_handler.TitleInputHandler : calculator
+@enduml
