@@ -14,11 +14,24 @@
 
 ## Assignments
 
+### Assignment #4
+
+| Name | Value |
+| :--- | :--- |
+| Name | A4 - Hypothesis and Mocking |
+| Description |  |
+| Pytest-cov  | 97% |
+| Due Date | March 19th, 2024 |
+| Status | Done |
+| Location | https://github.com/ofbartels/OOP-ofbartels/tree/assignment-4/Assignments/A4-HypothesisMocking |
+| Self Grade | 100/100 |
+| Notes | Kattis solution meeting technical project requirements and ci-cd requirements. Screenshots found in same location.
+
 ### Assignment #3
 
 | Name | Value |
 | :--- | :--- |
-| Name | OOP-A3-Unittesting |
+| Name | A3 - Unit Testing |
 | Description | Unittesting |
 | Due Date | March 7th, 2024 |
 | Status | Done |
@@ -30,7 +43,7 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | OOP-A2-Object-Oriented-Design |
+| Name | A2 - Object Oriented Design |
 | Description | OOD Principles |
 | Due Date | February 27th, 2024 |
 | Status | Done |
@@ -42,7 +55,7 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | OOP-A1-Python-Review |
+| Name | A1 - Python Review |
 | Description | Python Review Quizzes |
 | Due Date | 13-Feb-2024 |
 | Status | Done |
@@ -54,7 +67,7 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | OOP-A0-Docker-Githubbing |
+| Name | A0 - Docker and Githubbing |
 | Description | Docker Setup and Github Exercise |
 | Due Date | 01-Feb-2024 |
 | Status | Done |
