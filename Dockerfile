@@ -3,7 +3,8 @@ FROM python:3
 RUN apt update \
   && apt install -y \
   g++ gcc make sqlite3 time curl git nano dos2unix \
-  net-tools iputils-ping iproute2 sudo gdb less 
+  net-tools iputils-ping iproute2 sudo gdb less \
+  && apt clean;
 
 ARG USER=user
 ARG UID=1000
@@ -12,6 +13,7 @@ ARG GID=1000
 # Set environment variables
 ENV USER                ${USER}
 ENV HOME                /home/${USER}
+ENV PYTHONPATH="${PYTHONPATH}:/usr/local/lib/python3.12/site-packages"
 
 # Create user and setup permissions on /etc/sudoers
 RUN useradd -m -s /bin/bash -N -u $UID $USER && \
