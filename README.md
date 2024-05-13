@@ -14,6 +14,18 @@
 
 ## Assignments
 
+### Assignment #6
+
+| Name | Value |
+| :--- | :--- |
+| Name | A4 - Inheritance |
+| Description |  |
+| Due Date | April 15th, 2024 |
+| Status | Done |
+| Location | https://github.com/ofbartels/OOP-ofbartels/tree/assignment-6/Assignments/A6-inheritance |
+| Self Grade | 100/100 |
+| Notes | Kattis solution meeting technical project requirements and ci-cd requirements. Screenshots found in same location.
+
 ### Assignment #4
 
 | Name | Value |
