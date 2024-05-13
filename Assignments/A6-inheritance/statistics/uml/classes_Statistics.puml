@@ -1,0 +1,15 @@
+@startuml classes_Statistics
+set namespaceSeparator none
+class "BaseStats" as base_stats.BaseStats {
+  max() -> int
+  min() -> int
+  range() -> int
+  summary() -> str
+}
+class "StatsProcessor" as stats_processor.StatsProcessor {
+  cases : List[BaseStats]
+  add_case(data: List[int]) -> None
+  generate_report() -> str
+  process_input(input_lines: List[str]) -> None
+}
+@enduml

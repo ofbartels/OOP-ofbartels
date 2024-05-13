@@ -1,0 +1,11 @@
+@startuml packages_Statistics
+set namespaceSeparator none
+package "base_stats" as base_stats {
+}
+package "statistics" as statistics {
+}
+package "stats_processor" as stats_processor {
+}
+statistics --> stats_processor
+stats_processor --> base_stats
+@enduml
